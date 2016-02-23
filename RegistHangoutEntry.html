@@ -1,0 +1,23 @@
+<html>
+<head>
+
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</head>>
+<body>
+
+<div id="placeholder-div1"></div>
+
+
+<script>
+window.onload = function(){
+  gapi.hangout.render('placeholder-div1', {
+    'render': 'createhangout',
+    'initial_apps': [{'app_id' : '235040262958', 'start_data' : 'XXXXXXXXXXX', 'app_type' : 'ROOM_APP' }],
+    'invites':[{ id : 'moriyamayuta8@gmail.com', invite_type : 'EMAIL' }]
+  });
+}
+</script>
+
+</body>
+</html>
